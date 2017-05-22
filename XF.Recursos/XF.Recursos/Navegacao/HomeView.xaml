@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Recursos.Navegacao.HomeView"
+             Title="Home - Navegação">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Data: " FontSize="Medium" />
+                <Label x:Name="lblData" FontSize="Medium" />
+            </StackLayout>
+            <Button x:Name="btnDetalhe" Text="Visualizar detalhes" 
+              Clicked="btnDetalhe_Clicked" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
